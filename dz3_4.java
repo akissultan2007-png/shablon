@@ -25,7 +25,6 @@ class TelegramSender implements MessageSender {
     }
 }
 
-// Енді ол нақты кластарға емес, MessageSender интерфейсіне тәуелді
 class NotificationService {
     private final List<MessageSender> senders;
 
